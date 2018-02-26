@@ -1,0 +1,415 @@
+= OCA WITH NGC.
+
+image::https://vignette.wikia.nocookie.net/inciclopedia/images/7/7e/Mario_Almada_svg.png/revision/latest?cb=20080525215912[Tux,250,350]
+
+Doc Writer <cristian-alberto.rosas-villalvazo@hpe.com>
+
+An introduction to http://asciidoc.org[OCA].
+
+
+//*****************************************************************************************************************************************************************************************************
+
+== * OCA CONFIG 1 - ADVANCED CONFERENCE
+
+* The Principal idea of the system: the idea of the project is the management, modeling and planeation of the racks, derivate of enclosures, coolers and different objects that help the 		servers to work in good conditions and in the principal functions.
+* The app was develop in the framework NGC, private for the side of HP, NGC it’s a framework with a syntax’s similar to java, with a lot of libraries, variants and components that should help to 		the project.
+* The course was imparted by Leo Grondin.
+* Manage of components in the servers as of big importance, for one simple reason, the benefits that this program or app generate, to modify the data in agree to the requeriments by the client side. The client have different options of servers, kinds of racks, components, services and enclosures.
+* OCA is the front end, is the principal face and interface of the project, the design and the robustness of a professional application.
+* The use of B2B (Bussines to bussines) it's a fundamental methodology of bussiness, and is a good standard to planning and analyze the enviroment of the project.
+
+image::https://i.ytimg.com/vi/5OMnrHstJTQ/hqdefault.jpg[Tux,250,350]
+
+[source,ruby]
+	puts "This are the principal ideas of the conference imparted by Leo Grodin"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * OPERATOR'S OF INTEGRATION
+•	0D1 / 0D2:
+	* Intégrate into the partner.
+	* 0D1 depend in what the parents “Datafile Parents” says.
+•	FIO:
+	* It comes “inside” the bundle
+	* You can’t get  by itself, you need to buy the “partner”.
+•	BTO – Bill to Order:
+	* “StandAlone”.
+	* Could as come a “bundled”.
+•	CTO – Configure To Order:
+	* Configurable (You get to customizable).
+•	BTO Partner:
+	* Could as come a blundled.
+
+
+[source,ruby]
+	puts "This operator are focused to the bussines logic."
+
+//*****************************************************************************************************************************************************************************************************
+
+== * ENCLOUSER'S 
+The enclosure is a box or chassis inside the rack, which contains multiple blade servers and can perform several additional computing services, the cabinet manage the configuration, the coolers and the different things that help the server work.
+
+image::https://www.polycase.com/uploads/314691482941866-xl.png[Tux,250,350]
+
+//*****************************************************************************************************************************************************************************************************
+
+== * BOM - BILL OF MATERIALS
+El BOM is a sequence of rules that does not exactly match in the structure of the page.
+It has characteristics, such as:
+
+	** In addition, the BOM is a list of materials requited for the rack and all the builded part in general, if the BOM is correct, everything else should to be correct 
+	** The special rules for the cotization of services in different contexts
+	** The new products require changes that could impact in the existent products
+
+image::https://image.slidesharecdn.com/plmanderpareseparatedbyacommonbom-150505231841-conversion-gate02/95/plm-and-erp-separated-by-a-common-bill-of-materials-bom-14-638.jpg?cb=1430870015[Tux,450,350]
+
+[source,ruby]
+	puts "it's a object in the chasis"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * LANGUAGE NGC - NEXT GENERATION CONFIG
+It’s a simple traveling language that was created to simplify the configuration or easier the configuration of OCA.
+NGC is a framework that is exclusive of HP, that use a syntax of develop like JAVA, to make robust applications:
+
+	** One Attribute of this framework is _“targetClassesForSupport”_
+	** This class should have _“SupportSelectionsSubsystem”_
+	** Top-Level Products: Must entry in _“BaseModel_ByFamily”_ with a correct _“platformName”_
+
+[source,ruby]
+	puts "this framework based in the programing lenguage JAVA and POO(Programing oriented to objects)"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * ONE CONFIG PLATFORM
+	** OCA Application – One Config Advanced:
+The application that currently works with the framework and for which this course was imparted this two days, was make to purposes to known more of this project, and to have options knowing racks, the servers and the different components, according to the requirements and the modifications of the client according to the cost.
+So, in this part the logistics of sales in the OneConfig Architecture has:
+		*** The advanced config specialist (HP of partners.
+		*** Pre-Sales.
+		*** Intermediate User (HP or Partner).
+
+
+	** OCC – One Config Catalog
+In this part of the architecture of configuration, the plan of sales, that HP has taking plan, this section works principally in the production area, to separe the application but using the knowledge pieces of the engine in the database. 
+In this part of the arch, exist this different points:
+•	HP Sales.
+•	Partner Sales
+
+	** OCS – One Config Simple
+In this part of the architecture, had the HP Sales, but, in this time, his focused in the logistic operation, more in actions and results, in this part of the arch had:
+•	HP Sales.
+•	HP Sales Operations.
+
+
+[source,ruby]
+puts "OCA is the name of this system"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * TOPICS PRESENTED IN THE COURCE WITH LEO GRODIN
+In the project, the use of Excel looks like the less important part in the flow, but, the excel, in fact, is one of important (mayble the most) part in the project. In the excel file, have the logistics sales of the products and the bussines rules, the principal idea of this project, is to migrate all the products, sections and components of the program called "WATSON" to OCA, and the this document is the guide and steps (because doesn't exist a actualizated documentation, and the original team never make corrects steps and comments of this project), to following to resolved all the client statements. 
+	
+	* For example, in the document "HP 3PAR 8XXX" have the diferent params:
+
+		** *ACE*: 
+		*** in case of the ACE of bussines is success, put the leter "x", marking the box like cheked.
+		** *CLIC*:
+		*** in this part, in case of the CLICK is succes, put an "x" marking the box like cheked.
+		** *WATSON*:
+		*** if the product was correctly migrated to the new platform (in this case the OCA Application), put an "x" declaring like success the correct implantation of the product in this new and updated system.
+		** *OPTION* *TYPE*:
+		*** if the option type is OD1 or BTO, it depends certainly in the products and the rule of bussines.
+		** *DESCRIPTION*:
+		*** in this part, have the description of the product in fact, like the common name of the adapters with the rules of work to solved requeriment, in this part, the client descript all the decisions that the rules of bussines permit to make.
+		** *ADDITIONAL* *INFO*:
+		*** additional information to complement the description, like numeros of produts jerarquie, if the products are in conjunt or if is a cluster that may to have a lot of components and the parts.
+		** *AMS*:
+		*** if had the AMS  stardard of bussines  in success mode, put the "x", marking the checkbox like cheked.
+		** *EMEA*:
+		*** in case of the AMS like success, put an letter "x", marking the checkbox like cheked.
+		** *JPD*:
+		** *JAPAN*:
+		** *CHINA*:
+
+
+The sections that the project have to had, the requeriments, the serial numbers of products and all the statements that client want to see in the final products.
+Exist different serial numbers in the excel, the number are:
+		
+		*** *8200*:
+		*** *8400*:
+		*** *8440*:
+		*** *8450*:
+		*** *9KSeries*:
+
+[source,ruby]
+puts "Course of Leon Grondin"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * DATABASE IN SIMPLE TEXT
+The Database in this project, it's a document in simple text, where are located the data files that was requerited by the client, hours, etc. Located inside the divition of folders in the enviroment solution (project main).
+
+[source,ruby]
+puts "Use simple text, without a manager or program like SQL Server, MySql"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * CONFIURATION INTEGRATED DATA STORE (CIDS)
+ 
+ * CONFIGURABLE PRODUCS KNOWLEDGE BASE (KB)
+ ** Services:
+ *** The service is like a warranty.
+ *** This services are sold like are sold actually services (warrantys, compenders, etc.).
+ *** it'a subsystem of the service (usually definite like one partner class).
+ *** The services are agroup services of _"FLEX"_.
+ *** Flex and visibility in the attributes.
+ *** a good functionament and new in the releases.
+
+image::http://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
+
+[source,ruby]
+puts "it's a service definited"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * UI SPEC IN THE ENGINE - UI SPEC DOCUMENTATION
+UISpec is the NGC Engine’s way of specifying how a particular model should be presented as a set of logical choices and associated information.
+UISpec are specified by a number of UISpec elements within xml documents. The UISpec can defined in one or more separate files (xml documents). The root element of each file will be UISpecs. Each document will have the form:
+[source,ruby]
+example "<uispecs targets=””>
+	<uispec ngcClass=”class1” targets=””>
+	……….
+	</uspec>
+<uispec ngcClass=”class2”>
+	……….
+	</uspec>
+</uispecs>"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * NGC STANDARD (ATTRIBUTES AND CONSTRAINS)
+	** Naming Conventions – Native primitive types:
+		*** Boolean – bname
+		*** Int – iName
+		*** Double – dName
+		*** String – sName
+		*** Token – tName
+
+
+[source,ruby]
+Concepts Choice, Constrains, location Array – use underscores between words.
+Constrains bl68Slot3Ethernet4ptRule
+Constrains minCpusOnServer
+
+[source,ruby]
+Functions – use Java Conventions with first word being small case and every other word beginning being uppercase
+def getMemoryRdimmCount ()
+def getProcessorCount ()
+
+[source,ruby]
+When evoked make sure parentheses are at the end
+GetProcessorCount ()
+
+[source,ruby]
+Products (straight from menu):
+Product 332519-B21, AJ482A, BA488AA
+
+[source,ruby]
+Part (normal Java conventions):
+Part pciSlot, memorySlot"
+ 
+	** CLASSES
+Names should be created in the Kernel Case. Tryto use nouns because a class is normally representing something in the real world:
+
+	*** Class Customer
+	*** Class Account
+
+All caps fot specific servers:
+
+	*** DL360G7, ML1110G7
+	*** MLSeries, DLSeries, Superdome.
+	*** Processor, ProLiant Processor, Memory, ProlianPowerSupply, Etc.
+
+[source,ruby]
+ * Subsystem – use java conventions with subsystem at the end
+Examples: processor Subsystem, memory Subsystem, power Subsystem.
+ * PlatformName – (Case sensitive) – all lowercase one word
+Examples: dl360g7  ml110g7  dl360gen8
+
+	** PACKAGER
+Names should be in lower case. With small project that only have a few packages it's okey to just give them simple (but meaningful).
+	*** Names:
+	**** Package Pokernalvzer.
+	**** Package mycalculator.
+
+	** COMMENTS
+	
+	1. Leave comments before each constraint telling user a quick summary of why it exist.
+	2. Leave comments whenever a constraint is modified.
+
+[source,ruby]
+puts /**
+*@author TODRES1
+*@abouth
+*@modified
+**/
+
+//*****************************************************************************************************************************************************************************************************
+
+== * JUNIT TEST
+
+JUnit is a *REGRESION* *TESTING* *FRAMEWORK* used by developers to implement units of testing in java, and accelerate programming, speeded and increase in agree to the quality of code, JUnit Framework can be easily with either of the following.
+
+* *Enviroments of develop that use JUnit*:
+
+		** Eclipse
+		** Ant.
+		** Maven.
+
+* *Features of Junit Framework*:
+JUnit test framework provides the following important features:
+
+		** Fixtures.
+		** Test Suites.
+		** Test Runners.
+		** JUnit Classes.
+
+* *JUnit Classes*:
+JUnit classes are important, this classes are used in writing and testing of JUnit. Some of the important classes are:
+
+		*** *Assert*: Contains a set of assets methods.
+		*** *TestCase*: Contains a test case that defines the fixture to run multiple tests.
+		*** *Test Result*: Contain methods to collect the results of executing a test case.
+
+image::https://i.ytimg.com/vi/2nWI8wZM-U0/maxresdefault.jpg[Tux,350,350]
+
+
+
+[source,ruby]
+puts "down this part have a Example of code to "JUnit and @Test"
+
+//*****************************************************************************************************************************************************************************************************
+	
+== * CREATING A CONFIGURATION OF JUNIT TESTING
+.Table with a example of JUnit
+[cols="e"]
+|===
+| Examples of new Configuration (e) 
+| Create a new function – example of code:
+	
+	@Test
+	
+	* Public void TEST_NAME () throws exception {
+	
+
+	* Generate a new Configuration Instance
+	
+	Config = TestSuite.newConfigSessions ();
+
+
+
+	* Create a Model Instance
+	
+	Res = UtilityConfigMethods.addModelToConfiguration (config, modelld);
+	
+	AsserNotNull (Res);
+
+
+	* Generate UI Controls:
+	
+	Choises = UtilityConfigMethod.createIntanceChoices (config, Res);
+	
+	TestSuite.Choises = Choises.
+
+
+	* Make Product Selections:
+	
+	Request = TestSuite.addChoise (String localArray, String object, int number);
+	
+	Request = TestSuite.addChoise (String localArray, String object);
+	
+	Request = TestSuite.addBooleanChoice (String locArray, String object);
+}
+
+ 
+|===
+ 
+	* Utility Functions:
+.An JUnit Table
+[width="100%",cols=">s,^m,e",frame="topbot",options="header,footer"]
+|==========================
+|      2+|Table of the utility functions in JUnit
+|1 |Print a single choice  | o	TestSuite.dumpControlContents (subConfigurationlmpl config, InstanceChoices Choises, String platform, String controlled).
+
+o	TestSuite.dumpControlContents ( config, choices, “ML350G6”, “pciCards.pciCards.pciRiserChoice”)
+
+|2 |Print all the choices  | o	TestSuite.dump (ModelInstance r, String dumpType, SubConfigurationlmpl config, String name)
+|3 |Print all the messages  | o	TestSuite.allMsg ()
+|4 |Print BOM  | o	TestSuite.dump(ModelInstance r, “BOM”, SubConfigurationlmpl config, String name)
+|5 |Save UI Spec to the file  |o	String productNum = “487932-001”;
+TestSuite.writeConfigFileifPathExists (PATH, FILENAME,
+((KnownledgeBaselmpl) config.getKnownledgeBase()).getUiSpecsStore().getUiSpecForClass(productNum).toString());
+|6 |Check the constrains  | o	Test Suite. verifyConstainStatus (SubConfigurationlmpl subConfig, ModelInstance, String constraint, Configuration Status)
+o	assertTrue (TestSuite.verifyConstrainStatus (config, res, “processorRequired”, ERROR))
+|7 |Trace KB  | o	N/A – This is easier with the TestUI
+|==========================
+
+
+[source,ruby]
+puts "This tables is helpful to understand how JUnit Works"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * BOM TROUBLESHOOTING
+Bom Troubleshooting if focused on the lost services, is a problem resolution, some points that should be taken into accounts in terms of problem solving:
+	
+	** Caracteristic of Bom TroubleShooting:
+	*** The products may have relation with the services in the files with simple text provided by the corporation.
+	*** Only the real assignations apper in the dropdown menus, never going to show an invalided selection.
+	*** Exist problems  when the services was canceled, because  the system broke for the logic in program.
+	*** This kind of fixers of problems have the propose to identify the flow of managment or one system originated for one mistakes.
+
+	** Service Rules Of TroubleShooting
+	*** The complete confiuration require one level of service.
+	*** The factory express should apply in all the solution (main of the project).
+[source,ruby]
+puts "Hola, Homero"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * LEVELS OF CONFIGURATION
+	* Support and installation summary:
+	** In this level, the product is sold, but, in addition with the actual specific services.
+	* Other Service Summary:
+	** In this section another products with new properties and with a new requeriments are added, this area don't be part in the principal requeriments, but have a level of importance, in this level, we must be careful, this level have external requeriments that could be important in future.
+	* Add LifeCyrcle Of Service:
+	** This is another level of service, this thrid level work in sequence, is agrouped in quantity and the numbers of products that were sold in this lifecyrcle level.
+	* Add Training Services:
+	* Add Consulting Services:
+	* Add Supporting Credit Services:
+	* Add Factory Express Service:
+	** This level contains complex and commentaries for the new requeriments of the actual components, to make the tracking of the especific costumer level.
+	* Add Costumer Especific Service:
+	* Add Logistic Service:
+	* Add Nomble Service:
+[source,ruby]
+puts "Using simple text"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * HOW TO INSTALL
+
+[source,ruby]
+puts "Installation"
+
+//*****************************************************************************************************************************************************************************************************
+
+== * HOW TO RUN THE PROJECT
+
+[source,ruby]
+puts "Installation"
+
+//*****************************************************************************************************************************************************************************************************
+
+image::http://thenewcode.com/assets/images/thumbnails/homer-simpson.svg[Tux,250,350]
